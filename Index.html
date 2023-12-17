@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Login Page </title>
+</head>
+
+<body>
+
+  <div class="container" id="container">
+    <div class="form-container sign-up">
+      <form>
+        <h1>انشاء حساب جديد</h1>
+        
+        <span>يمكنك استخدام البريد الالكتروني لفتح حساب جديد </span> </span>
+        <input type="text" placeholder="الاسم">
+        <input type="email" placeholder="البريد الالكتروني">
+        <input type="password" placeholder="كلمة السر ">
+        <button>تسجيل </button>
+      </form>
+    </div>
+    <div class="form-container sign-in">
+      <form>
+        <h1>تسجيل دخول </h1>
+
+        <span>استخدم البريد الالكتروني الخاص بك للدخول </span>
+        <input type="email" placeholder="البريد الالكتروني ">
+        <input type="password" placeholder="كلمة السر ">
+        <a href="#">نسيت كلمة السر ؟</a>
+        <button>تسجيل دخول </button>
+      </form>
+    </div>
+    <div class="toggle-container">
+      <div class="toggle">
+        <div class="toggle-panel toggle-left">
+          <h1>يامرحبا </h1>
+          <p>دخل بياناتك عشان تقدر تستخدم مميزات الموقع</p>
+          <button class="hidden" id="login">تسجيل دخول </button>
+        </div>
+        <div class="toggle-panel toggle-right">
+          <h1>ياهلا وسهلا</h1>
+          <p>دخل بياناتك عشان تقدر تستخدم مميزات الموقع</p>
+          <button class="hidden" id="register">تسجيل جديد </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
+
